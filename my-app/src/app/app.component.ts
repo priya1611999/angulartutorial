@@ -1,9 +1,12 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { customecomponent } from './customcomponent/custom.component';
+import { CalculatorComponent } from './calculator/calculator.component';
+import { MouseeventComponent } from './mouseevent/mouseevent.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [LoginComponent,customecomponent,CalculatorComponent,MouseeventComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
