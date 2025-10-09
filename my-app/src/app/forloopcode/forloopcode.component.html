@@ -1,1 +1,13 @@
-<p>forloopcode works!</p>
+<p>userList works!</p>
+@for(user of userList ; track user){
+      <p>{{ user }}</p>
+  }
+
+<br><br><br><br><br>
+  <h2>Student List</h2>
+@for(user of studentList ; track user.name;let id=$index){
+      <p>{{ id }}=={{ user.name }}== {{ user.age }}
+        <button (click)="getName(user.name)">getname</button>
+      </p>
+      
+  }
