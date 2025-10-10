@@ -1,1 +1,17 @@
 <p>routehomecomponet works!</p>
+
+<!-- normal route without data pass -->
+<!-- <a routerLink="profile">Go to profile</a> -->
+
+<!-- normal routeLink with data pass -->
+<!-- 1. route link with data pass -->
+ <a [routerLink]="['profile', { name: 'priya' }]">Go to profile</a>
+
+ <!-- 2. route click with data pass -->
+ <button class="btn" (click)="gotoprofile()">Go to profile</button>
+
+ <!-- 3. route click with data pass to common profile component -->
+
+<a routerLink="profilecommon">Go to profilecommon</a>
+
+ 
