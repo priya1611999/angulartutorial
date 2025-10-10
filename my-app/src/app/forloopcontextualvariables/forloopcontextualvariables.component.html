@@ -1,0 +1,9 @@
+<p>forloopcontextualvariables works!</p>
+
+@for( user of userList; track user;  let i=$index; let r=$last; let f=$first;){
+    <h1>{{i}} {{user}} {{r}} {{f}}</h1>
+}
+
+@empty{
+    <h1>no records</h1>
+}

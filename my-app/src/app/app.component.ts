@@ -5,12 +5,19 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { MouseeventComponent } from './mouseevent/mouseevent.component';
 import { ForloopcodeComponent } from './forloopcode/forloopcode.component';
 import { SignalcodeComponent } from './signalcode/signalcode.component';
+import { EffectcodeComponent } from './effectcode/effectcode.component';
+import { ForloopcontextualvariablesComponent } from './forloopcontextualvariables/forloopcontextualvariables.component';
+import { NgmodelcodeComponent } from './ngmodelcode/ngmodelcode.component';
 
 @Component({
   selector: 'app-root',
  // imports: [LoginComponent,customecomponent,CalculatorComponent,MouseeventComponent,SetgetvalueComponent,IfelseconditionsComponent],
 //  imports:[IfelseconditionsComponent],
-imports:[ForloopcodeComponent,SignalcodeComponent],
+// imports:[ForloopcodeComponent,SignalcodeComponent],
+// imports:[EffectcodeComponent],
+// imports:[ForloopcontextualvariablesComponent],
+imports:[NgmodelcodeComponent],
+
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
