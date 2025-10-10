@@ -14,6 +14,7 @@ import { ComponetdirectivecodeComponent  } from './componetdirectivecode/compone
 import { NgforcomponetComponent } from './ngforcomponet/ngforcomponet.component';
 import { NgswitchcomponetComponent } from './ngswitchcomponet/ngswitchcomponet.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { RouteheadercomponetComponent } from './routeheadercomponet/routeheadercomponet.component';
 
 @Component({
   selector: 'app-root',
@@ -28,7 +29,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 // imports:[ComponetdirectivecodeComponent],
 // imports:[NgforcomponetComponent],
 // imports:[RouterLink,RouterOutlet],
-  imports: [RouterLink, RouterOutlet],
+  imports: [ RouterOutlet, RouteheadercomponetComponent],
 
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
