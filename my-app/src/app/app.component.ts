@@ -10,6 +10,7 @@ import { ForloopcontextualvariablesComponent } from './forloopcontextualvariable
 import { NgmodelcodeComponent } from './ngmodelcode/ngmodelcode.component';
 import { TodolistcodeComponent } from './todolistcode/todolistcode.component';
 import { DynamicstylecodeComponent } from './dynamicstylecode/dynamicstylecode.component';
+import { ComponetdirectivecodeComponent  } from './componetdirectivecode/componetdirectivecode.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,9 @@ import { DynamicstylecodeComponent } from './dynamicstylecode/dynamicstylecode.c
 // imports:[ForloopcontextualvariablesComponent],
 // imports:[NgmodelcodeComponent],
 // imports:[TodolistcodeComponent],
-imports:[DynamicstylecodeComponent],
+// imports:[DynamicstylecodeComponent],
+imports:[ComponetdirectivecodeComponent],
+
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
