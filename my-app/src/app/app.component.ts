@@ -11,6 +11,8 @@ import { NgmodelcodeComponent } from './ngmodelcode/ngmodelcode.component';
 import { TodolistcodeComponent } from './todolistcode/todolistcode.component';
 import { DynamicstylecodeComponent } from './dynamicstylecode/dynamicstylecode.component';
 import { ComponetdirectivecodeComponent  } from './componetdirectivecode/componetdirectivecode.component';
+import { NgforcomponetComponent } from './ngforcomponet/ngforcomponet.component';
+import { NgswitchcomponetComponent } from './ngswitchcomponet/ngswitchcomponet.component';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +24,9 @@ import { ComponetdirectivecodeComponent  } from './componetdirectivecode/compone
 // imports:[NgmodelcodeComponent],
 // imports:[TodolistcodeComponent],
 // imports:[DynamicstylecodeComponent],
-imports:[ComponetdirectivecodeComponent],
+// imports:[ComponetdirectivecodeComponent],
+// imports:[NgforcomponetComponent],
+imports:[NgswitchcomponetComponent],
 
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
