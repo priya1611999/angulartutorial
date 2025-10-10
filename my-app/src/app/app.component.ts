@@ -8,6 +8,8 @@ import { SignalcodeComponent } from './signalcode/signalcode.component';
 import { EffectcodeComponent } from './effectcode/effectcode.component';
 import { ForloopcontextualvariablesComponent } from './forloopcontextualvariables/forloopcontextualvariables.component';
 import { NgmodelcodeComponent } from './ngmodelcode/ngmodelcode.component';
+import { TodolistcodeComponent } from './todolistcode/todolistcode.component';
+import { DynamicstylecodeComponent } from './dynamicstylecode/dynamicstylecode.component';
 
 @Component({
   selector: 'app-root',
@@ -16,8 +18,9 @@ import { NgmodelcodeComponent } from './ngmodelcode/ngmodelcode.component';
 // imports:[ForloopcodeComponent,SignalcodeComponent],
 // imports:[EffectcodeComponent],
 // imports:[ForloopcontextualvariablesComponent],
-imports:[NgmodelcodeComponent],
-
+// imports:[NgmodelcodeComponent],
+// imports:[TodolistcodeComponent],
+imports:[DynamicstylecodeComponent],
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
