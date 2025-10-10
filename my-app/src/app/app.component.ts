@@ -13,6 +13,7 @@ import { DynamicstylecodeComponent } from './dynamicstylecode/dynamicstylecode.c
 import { ComponetdirectivecodeComponent  } from './componetdirectivecode/componetdirectivecode.component';
 import { NgforcomponetComponent } from './ngforcomponet/ngforcomponet.component';
 import { NgswitchcomponetComponent } from './ngswitchcomponet/ngswitchcomponet.component';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -26,7 +27,8 @@ import { NgswitchcomponetComponent } from './ngswitchcomponet/ngswitchcomponet.c
 // imports:[DynamicstylecodeComponent],
 // imports:[ComponetdirectivecodeComponent],
 // imports:[NgforcomponetComponent],
-imports:[NgswitchcomponetComponent],
+// imports:[RouterLink,RouterOutlet],
+  imports: [RouterLink, RouterOutlet],
 
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
