@@ -15,6 +15,8 @@ import { NgforcomponetComponent } from './ngforcomponet/ngforcomponet.component'
 import { NgswitchcomponetComponent } from './ngswitchcomponet/ngswitchcomponet.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { RouteheadercomponetComponent } from './routeheadercomponet/routeheadercomponet.component';
+import { DynamicroutingcomponetComponent } from './dynamicroutingcomponet/dynamicroutingcomponet.component';
+import { ReactiveFormcomponetComponent } from './reactive-formcomponet/reactive-formcomponet.component';
 
 @Component({
   selector: 'app-root',
@@ -29,7 +31,9 @@ import { RouteheadercomponetComponent } from './routeheadercomponet/routeheaderc
 // imports:[ComponetdirectivecodeComponent],
 // imports:[NgforcomponetComponent],
 // imports:[RouterLink,RouterOutlet],
-  imports: [ RouterOutlet, RouteheadercomponetComponent],
+  // imports: [ RouterOutlet, RouteheadercomponetComponent],
+  // imports: [ RouterOutlet, DynamicroutingcomponetComponent],
+imports:[RouterOutlet,ReactiveFormcomponetComponent],
 
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
