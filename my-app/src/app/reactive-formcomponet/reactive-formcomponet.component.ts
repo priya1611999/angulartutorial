@@ -39,4 +39,12 @@ setValue(){
     password:'admin123'
   });   
 }
+
+get name(){   
+  return this.loginform.get('name');
+}
+
+get password(){   
+  return this.loginform.get('password');  
+}
 } 
