@@ -17,6 +17,10 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { RouteheadercomponetComponent } from './routeheadercomponet/routeheadercomponet.component';
 import { DynamicroutingcomponetComponent } from './dynamicroutingcomponet/dynamicroutingcomponet.component';
 import { ReactiveFormcomponetComponent } from './reactive-formcomponet/reactive-formcomponet.component';
+import { TemplateDrivenValidationFormcomponetComponent } from './template-driven-validation-formcomponet/template-driven-validation-formcomponet.component';
+import { UserChildcomponetComponent } from './user-childcomponet/user-childcomponet.component';
+import { PipeCodecomponetComponenc } from './pipe-codecomponet/pipe-codecomponet.componenc';
+import { CustomPipecomponetComponent } from './custom-pipecomponet/custom-pipecomponet.component';
 
 @Component({
   selector: 'app-root',
@@ -33,11 +37,17 @@ import { ReactiveFormcomponetComponent } from './reactive-formcomponet/reactive-
 // imports:[RouterLink,RouterOutlet],
   // imports: [ RouterOutlet, RouteheadercomponetComponent],
   // imports: [ RouterOutlet, DynamicroutingcomponetComponent],
-imports:[RouterOutlet,ReactiveFormcomponetComponent],
+// imports:[RouterOutlet,TemplateDrivenValidationFormcomponetComponent],
+// imports:[RouterOutlet,ReactiveFormcomponetComponent],
+// imports:[UserChildcomponetComponent],
+// imports:[PipeCodecomponetComponenc],
+imports:[CustomPipecomponetComponent],
 
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class Appcomponent {
+
+  userName="pallavi chaudhari";
  
 }

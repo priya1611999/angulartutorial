@@ -8,18 +8,21 @@ import { RouteprofilepassdatacomponetComponent } from './routeprofilepassdatacom
 import { DynamicroutingcomponetComponent } from './dynamicroutingcomponet/dynamicroutingcomponet.component';
 import { UserpassdatacomponetComponent } from './userpassdatacomponet/userpassdatacomponet.component';
 import { ReactiveFormcomponetComponent } from './reactive-formcomponet/reactive-formcomponet.component';
+import { TemplateDrivenValidationFormcomponetComponent } from './template-driven-validation-formcomponet/template-driven-validation-formcomponet.component';
 
 export const routes: Routes = [
     
   // { path: '', component: RoutehomecomponetComponent }, // <-- Add this line
-  { path: 'about', component: RouteaboutchcomponetComponent },
-  { path: 'contact', component: RoutecontactcomponetComponent },
-  { path: 'login', component: RoutelogincomponetComponent },
-   { path: 'profile', component: RouteprofilepassdatacomponetComponent },
-  //need to pass common data to multiple component
-     { path: 'profilecommon', component: RouteprofilepassdatacomponetComponent,data: { name: 'priya' } },
-   { path: 'userdatapass/:id', component: UserpassdatacomponetComponent },
-   { path: '', component: ReactiveFormcomponetComponent },
+  // { path: 'about', component: RouteaboutchcomponetComponent },
+  // { path: 'contact', component: RoutecontactcomponetComponent },
+  // { path: 'login', component: RoutelogincomponetComponent },
+  //  { path: 'profile', component: RouteprofilepassdatacomponetComponent },
+  // //need to pass common data to multiple component
+  //    { path: 'profilecommon', component: RouteprofilepassdatacomponetComponent,data: { name: 'priya' } },
+  //  { path: 'userdatapass/:id', component: UserpassdatacomponetComponent },
+  // //  { path: '', component: ReactiveFormcomponetComponent },
+  // //  { path: '', component: TemplateDrivenValidationFormcomponetComponent },
+  // //  { path: '**', component: RoutepagenotfoundcomponetComponent }
+  //   //  { path: '', component: UserParentcomponetComponent }
 
-  //  { path: '**', component: RoutepagenotfoundcomponetComponent }
 ];
