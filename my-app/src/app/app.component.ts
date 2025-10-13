@@ -21,6 +21,7 @@ import { TemplateDrivenValidationFormcomponetComponent } from './template-driven
 import { UserChildcomponetComponent } from './user-childcomponet/user-childcomponet.component';
 import { PipeCodecomponetComponenc } from './pipe-codecomponet/pipe-codecomponet.componenc';
 import { CustomPipecomponetComponent } from './custom-pipecomponet/custom-pipecomponet.component';
+import { ServiceCodecomponetComponent } from './service-codecomponet/service-codecomponet.component';
 
 @Component({
   selector: 'app-root',
@@ -41,7 +42,8 @@ import { CustomPipecomponetComponent } from './custom-pipecomponet/custom-pipeco
 // imports:[RouterOutlet,ReactiveFormcomponetComponent],
 // imports:[UserChildcomponetComponent],
 // imports:[PipeCodecomponetComponenc],
-imports:[CustomPipecomponetComponent],
+// imports:[CustomPipecomponetComponent],
+imports:[ServiceCodecomponetComponent],
 
  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
