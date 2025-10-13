@@ -1,0 +1,10 @@
+<p>dynamicroutingcomponet works!</p>
+
+@for(user of userList;track user.name)
+{
+  <h2>{{user.name}}</h2>
+  <p>Age: {{user.age}}</p>
+  <p>City: {{user.city}}</p>
+  <a routerLink="['/userdatapass/{{user.name}}']">View Details</a>
+  <hr>
+}

@@ -1,0 +1,9 @@
+<p>ngforcomponet works!</p>
+<ul *ngFor="let name of listOfNames">
+  <li>{{name}}</li>
+</ul>
+
+<p>List of names using index</p>
+<ul *ngFor="let student of studentList; let i = index">
+  <li>{{i}} - {{student.name}}</li>  
+</ul>

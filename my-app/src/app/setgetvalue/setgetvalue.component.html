@@ -1,0 +1,7 @@
+<p>setgetvalue works!</p>
+<input type="text" value="{{name}}" (input)="setvalueforname($event)"name="user">
+<h1>{{name}}</h1>
+
+<input type="text" value="{{emailValue}}" placeholder="enter email" #emailField>
+<button class="btn" style="width: 80px; height: 80px;" (click)="setemail(emailField.value)"></button>
+<h1>{{emailValue}}</h1>
